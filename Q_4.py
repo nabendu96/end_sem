@@ -60,7 +60,7 @@ for i in range(bins):
 			P_bin[i]+=P[j]
 			count+=1
 	P_bin[i]=P_bin[i]/count	
-	k _bin[i]=karr1[i]+(karr1[i+1]-karr1[i])/2
+	k_bin[i]=karr1[i]+(karr1[i+1]-karr1[i])/2
 
 plt.bar(k_bin,P_bin,width)
 plt.xlabel(r'binned k',fontsize=16)
